@@ -5,7 +5,6 @@ import javax.swing.JOptionPane;
         public static void main (String [] args ) {
             RedesController mController = new RedesController();
             int opcao = 0;
-            int a = 0;
             while (opcao != 9) {
                 opcao = Integer.parseInt(JOptionPane.showInputDialog("Menu \n" 
                                         + "1 - Configuração do IP \n"

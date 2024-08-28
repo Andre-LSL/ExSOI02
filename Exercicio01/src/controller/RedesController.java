@@ -58,7 +58,7 @@ public class RedesController {
             BufferedReader buffer = new BufferedReader(leitor);
             String linha = buffer.readLine();
             while(linha != null) {
-                if (linha.contains("Média") || linha.contains("avg")) {
+                if (linha.contains("dia") || linha.contains("avg")) {
                     System.out.println(linha);
                 }
                 linha = buffer.readLine();
