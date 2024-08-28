@@ -1,4 +1,4 @@
-## Exercícios de Processos e Sistemas Operacionais
+## Exercícios de Processos e Sistemas Operacionais (Exercicio SO, Aula 3)
 Este repositório contém três exercícios em Java relacionados ao controle de rede, gerenciamento de processos e identificação de distribuições Linux.
 
 ### Exercício 1: Controle de Rede
