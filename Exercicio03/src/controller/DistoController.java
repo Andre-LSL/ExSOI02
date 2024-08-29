@@ -33,6 +33,9 @@ public class DistoController {
 				System.out.println(linha.trim());
 				linha = buffer.readLine();
 			}
+	    buffer.close();
+            leitor.close();
+            fluxo.close();
         } catch (Exception e) {
 
         }
