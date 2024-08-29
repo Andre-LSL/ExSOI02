@@ -30,6 +30,9 @@ public class KillController {
                 System.out.println(linha);
                 linha = buffer.readLine();
             }
+            buffer.close();
+            leitor.close();
+            fluxo.close();
         } catch (Exception e) {
 
         }
